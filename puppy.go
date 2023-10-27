@@ -3,11 +3,11 @@ package puppy
 
 import "fmt"
 
-func Bark() {
+func Bark() string {
 	return "woof! woof!"
 }
 
-func Barks() {
+func Barks() string {
 	return "woofs! woofs!"
 }
 
